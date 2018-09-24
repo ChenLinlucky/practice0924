@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <CheckBox
+        android:id="@+id/cb_03"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:text="商品名称:"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="价格:"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        />
+    <com.example.dell.practice0924.widge.togglebutton
+        android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></com.example.dell.practice0924.widge.togglebutton>
+</LinearLayout>
